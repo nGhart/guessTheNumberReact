@@ -16,7 +16,7 @@ function App() {
           y: 740,
           radius: Math.random() * 50 + 30,
           //speed: Math.random() * 50 + 40,
-          speed: Math.random() * 2 + 10,
+          speed: Math.random() * 25 + 20,
         };
         bubbles.current.push(bubble);
       }

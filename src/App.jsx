@@ -9,7 +9,7 @@ function App() {
     const context = canvas.getContext('2d');
 
     const generateBubbles = () => {
-      const numBubbles = 8;
+      const numBubbles = 14;
       for (let i = 0; i < numBubbles; i++) {
         const bubble = {
           x: Math.random() * 1490,
